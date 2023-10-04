@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    background-image: url("img/ODS-14_Vida-submarina.jpg");
+    background-size: cover;
+    min-width: 768px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+ul li{
+    background-color: rgba(59, 112, 151, 1);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.titulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color:rgba(59, 112, 151, 1);
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.subtitulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: large;
+}
+footer{
+    height: auto;
+    background: rgba(59, 112, 151, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    font-size: small;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.texto{
+    color: white;
+    font-size: large;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fotos img{
+    width: 400px;
+    height: auto;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Integrantes{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    flex-direction: column;
+}
+.cv1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    margin-top: 11px;
+}
+.cv2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.textofotocv{
+    display: flex;
+    text-decoration: none;
+    margin-bottom: 40px;
+    background-color: #225D7E;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 15px;
+}
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+.whatsapp img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: large;
+    margin-top: 15px;
+}
+.mail img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
